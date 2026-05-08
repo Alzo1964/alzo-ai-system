@@ -1,0 +1,71 @@
+{
+    "task_id": "task-YYYYMMDD-001",
+    "title": "Task title",
+    "description": "Brief description of the task, request, or operational need.",
+    "created_by": "vera",
+    "assigned_studio": {
+        "name": "software-studio",
+        "path": "studios/software-studio/"
+    },
+    "assigned_role": "vera",
+    "priority": "medium",
+    "status": "planned",
+    "objective": "Clear outcome the task should produce.",
+    "required_inputs": [
+        {
+            "name": "input-name",
+            "type": "document | file | decision | reference | data | credential | context",
+            "source": "path-or-owner",
+            "required": true,
+            "status": "needed",
+            "notes": "Why this input is needed."
+        }
+    ],
+    "expected_outputs": [
+        {
+            "name": "output-name",
+            "type": "document | template | report | code | workflow | decision-record | checklist",
+            "destination": "path-or-directory",
+            "acceptance_criteria": [
+                "Specific condition that confirms this output is complete."
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "dependency_id": "dependency-001",
+            "type": "task | project | decision | asset | approval | external-system",
+            "description": "Dependency description.",
+            "status": "open",
+            "owner": "owner-or-role"
+        }
+    ],
+    "related_projects": [
+        {
+            "project_id": "project-001",
+            "name": "Project name",
+            "path": "related/project/path",
+            "relationship": "parent | child | sibling | reference"
+        }
+    ],
+    "deadline": {
+        "date": "YYYY-MM-DD",
+        "time": "HH:MM",
+        "timezone": "Etc/UTC",
+        "flexibility": "fixed | flexible | none"
+    },
+    "created_at": "YYYY-MM-DDTHH:MM:SSZ",
+    "updated_at": "YYYY-MM-DDTHH:MM:SSZ",
+    "notes": [
+        {
+            "created_at": "YYYY-MM-DDTHH:MM:SSZ",
+            "created_by": "role-or-person",
+            "note": "Context, decision history, or implementation note."
+        }
+    ],
+    "tags": [
+        "alzo-ai-system",
+        "task-template",
+        "workflow-orchestration"
+    ]
+}
