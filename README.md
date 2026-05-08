@@ -141,6 +141,25 @@ alzo-ai-system/
 
 ---
 
+## Architecture and Expansion References
+
+The repository includes dedicated planning references for the next major ALZO AI System layers:
+
+| Layer | Reference |
+| --- | --- |
+| Memory System | `memory/memory-system.md` |
+| PostgreSQL Architecture | `studios/software-studio/postgresql-architecture.md` |
+| Local Development Environment | `studios/software-studio/local-development-environment.md` |
+| Dashboard Structure | `studios/software-studio/dashboard-structure.md` |
+| Automation Layer | `studios/software-studio/automation-layer.md` |
+| Vera Workflow Engine | `vera/workflow-engine.md` |
+| Mira Reminder Engine | `mira/reminder-engine.md` |
+| Future AI Expansion Layer | `reports/future-ai-expansion-layer.md` |
+
+These references keep future implementation work modular, discoverable, and aligned with the repository's source-of-truth documentation model.
+
+---
+
 ## System Principles
 
 The ALZO AI System is guided by the following principles:
