@@ -10,6 +10,11 @@ The MVP includes:
 
 - Vera as the strategic planning and task-structure assistant.
 - Mira as the personal reminder and continuity assistant.
+- A FastAPI backend foundation for APIs, task state, memory references, and authentication-aware access.
+- WordPress as the public presentation layer with minimal custom admin UI.
+- PostgreSQL as the primary structured data store.
+- OpenAI API as the MVP AI layer.
+- Docker and Docker Compose for consistent local development.
 - A backend foundation for APIs, task state, memory references, and authentication-aware access.
 - WordPress as the public presentation and lightweight dashboard layer.
 - PostgreSQL as the primary structured data store.

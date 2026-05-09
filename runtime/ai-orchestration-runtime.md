@@ -6,6 +6,7 @@ The AI orchestration runtime coordinates assistant activity across the ALZO AI S
 
 ## Core Responsibilities
 
+- Use the OpenAI API as the MVP model provider behind assistant runtime interfaces.
 - Receive user requests, scheduled triggers, system events, and integration events.
 - Classify the request by domain, sensitivity, urgency, and required outcome.
 - Route work to Vera, Mira, Nova, or future assistants based on capability and access rules.

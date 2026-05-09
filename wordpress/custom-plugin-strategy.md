@@ -6,12 +6,14 @@ The custom WordPress plugin should provide the controlled integration layer betw
 
 ## Responsibilities
 
+- Register ALZO-specific content types, blocks, shortcodes, or minimal admin pages.
 - Register ALZO-specific content types, blocks, shortcodes, or admin pages.
 - Authenticate requests to backend APIs.
 - Render Vera and Mira dashboard modules inside WordPress when appropriate.
 - Sync approved Publishing Studio content into WordPress drafts or published pages.
 - Support campaign landing page templates and conversion tracking.
 - Centralize integration settings outside the active theme.
+- Provide the minimal custom admin UI required to manage ALZO integration settings and approved sync actions.
 
 ## Recommended Structure
 

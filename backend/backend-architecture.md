@@ -6,6 +6,7 @@ The backend is the operational intelligence layer of the ALZO AI System. It shou
 
 ## Responsibilities
 
+- Run the backend as a FastAPI application in Python.
 - Orchestrate Vera and Mira runtime activity.
 - Manage task execution, memory interaction, and service coordination.
 - Provide authenticated APIs for WordPress, dashboards, and future clients.
@@ -22,6 +23,11 @@ The backend is the operational intelligence layer of the ALZO AI System. It shou
 
 ## Runtime Model
 
+FastAPI is the backend framework for API routing, request validation, service orchestration, and local development compatibility. The backend should operate as a modular application with separate runtime modules for orchestration, reminders, task execution, memory access, and external integrations. Shared services should provide logging, authentication, configuration, persistence, and API clients.
+
+## AI Layer
+
+The OpenAI API should provide model access for Vera, Mira, and future assistants. Model calls should remain behind runtime or service interfaces so prompts, policies, and providers can evolve without changing API clients.
 The backend should operate as a modular application with separate runtime modules for orchestration, reminders, task execution, memory access, and external integrations. Shared services should provide logging, authentication, configuration, persistence, and API clients.
 
 ## Data Foundation

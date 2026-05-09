@@ -4,6 +4,14 @@
 
 1. Establish repository-backed documentation and architecture boundaries.
 2. Implement authentication, sessions, roles, and admin/user separation.
+3. Build FastAPI backend API foundations for users, tasks, reminders, and dashboard payloads.
+4. Add PostgreSQL persistence for core operational records.
+5. Implement Vera planning and task-structuring workflow.
+6. Implement Mira reminder and continuity workflow.
+7. Connect WordPress as the presentation layer with minimal custom admin UI for public pages and approved dashboard summaries.
+8. Add OpenAI API integration behind Vera and Mira runtime services.
+9. Add Docker Compose local development for FastAPI and PostgreSQL.
+10. Add backup-aware deployment practices for database and repository continuity.
 3. Build backend API foundations for users, tasks, reminders, and dashboard payloads.
 4. Add PostgreSQL persistence for core operational records.
 5. Implement Vera planning and task-structuring workflow.
@@ -25,6 +33,7 @@ WordPress should present public content, simple landing pages, and approved dash
 
 ## Backend MVP Role
 
+The backend should use FastAPI and provide secure APIs, runtime coordination, PostgreSQL persistence, task/reminder state, and approved data for WordPress. It should remain modular but does not need full microservice separation in the MVP.
 The backend should provide secure APIs, runtime coordination, PostgreSQL persistence, task/reminder state, and approved data for WordPress. It should remain modular but does not need full microservice separation in the MVP.
 
 ## Priority Rule
