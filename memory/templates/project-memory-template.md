@@ -15,6 +15,11 @@
 ## Project Purpose
 
 Briefly describe why this project exists, what outcome it supports, and how it contributes to the broader ALZO AI System.
+`Owner, role, or responsible studio`
+
+## Project Purpose
+
+Briefly describe why this project exists, what outcome it supports, and how it connects to the broader ALZO AI System.
 
 ## Current Status
 
@@ -35,6 +40,9 @@ Explain why this project matters operationally, strategically, creatively, perso
 | Business / Creative Value | Relevant external, commercial, audience, or creative value. |
 | Continuity Value | What future context this project should preserve. |
 | Priority Rationale | Why this project deserves its current priority level. |
+| Last Updated | `YYYY-MM-DD` |
+| Primary Studio / Domain | `campaign-studio | software-studio | publishing-studio | personal | system | other` |
+| Summary | Short description of the current state. |
 
 ## Key Decisions
 
@@ -59,6 +67,13 @@ Explain why this project matters operationally, strategically, creatively, perso
 | Dependency | Type | Owner / Source | Status | Impact |
 | --- | --- | --- | --- | --- |
 | Dependency name | `task | decision | asset | person | system | external` | `Owner or source` | `open | in-progress | resolved | blocked` | How this dependency affects the project. |
+| Reference name | `task | report | document | dashboard | external` | `path-or-url` | Why this link matters. |
+
+## Active Tasks
+
+| Task | Owner / Role | Status | Deadline | Notes |
+| --- | --- | --- | --- | --- |
+| Task name or ID | `Owner or role` | `planned | active | blocked | review` | `YYYY-MM-DD` | Current task context. |
 
 ## Risks
 
@@ -101,3 +116,8 @@ Use this section for historical context that is no longer active but remains use
 | Last Updated | `YYYY-MM-DD` |
 | Updated By | `Person, role, or agent` |
 | Update Summary | Brief description of what changed in this memory record. |
+Use this section for historical context that is no longer active but remains useful for continuity.
+
+| Date | Note | Reason Archived |
+| --- | --- | --- |
+| `YYYY-MM-DD` | Archived note or context. | Why this is no longer active. |
