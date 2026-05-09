@@ -11,6 +11,9 @@
 - WordPress presentation layer with minimal custom admin UI for public pages, approved summaries, and campaign landing pages.
 - OpenAI API integration behind Vera and Mira runtime services.
 - Docker Compose local development environment for FastAPI and PostgreSQL.
+- Backend API for dashboard data, tasks, reminders, and approved content sync.
+- PostgreSQL storage for users, sessions, tasks, reminders, and audit events.
+- WordPress presentation layer for public pages, approved summaries, and campaign landing pages.
 - Basic backup and deployment rules for repository and database continuity.
 
 ## Nice-to-Have Features

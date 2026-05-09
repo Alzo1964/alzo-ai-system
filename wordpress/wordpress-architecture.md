@@ -10,11 +10,13 @@ WordPress serves as the public presentation layer for the ALZO AI System. It pub
 | --- | --- |
 | ALZO backend | Intelligence, workflows, memory, reporting, task context, and API services. |
 | WordPress | Public pages, editorial presentation, landing pages, minimal custom admin UI, dashboards, and audience-facing content. |
+| WordPress | Public pages, editorial presentation, landing pages, dashboards, and audience-facing content. |
 | Custom plugin | Secure bridge between WordPress and ALZO backend services. |
 
 ## Core Principles
 
 - Keep WordPress focused on publishing, presentation, minimal custom admin workflows, and lightweight interaction.
+- Keep WordPress focused on publishing, presentation, and lightweight interaction.
 - Keep durable operating context inside the ALZO repository or backend system.
 - Use APIs to sync approved content, dashboard data, and campaign assets.
 - Avoid hard-coding ALZO business logic into themes.

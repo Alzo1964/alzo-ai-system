@@ -17,6 +17,7 @@ WordPress should not host private backend intelligence, assistant memory, or cor
 ## Backend Hosting Strategy
 
 The backend should run as a FastAPI Python service packaged with Docker. It may be hosted on:
+The backend may be hosted on:
 
 - A managed application platform for simple deployment and scaling.
 - Containers on a VPS or cloud service for stronger control.
@@ -29,6 +30,7 @@ PostgreSQL may run through:
 
 - Managed cloud PostgreSQL for production reliability, backups, monitoring, and upgrades.
 - Containerized PostgreSQL for local development through Docker Compose or controlled environments.
+- Containerized PostgreSQL for local development or controlled environments.
 - VPS-hosted PostgreSQL only when operational maintenance is acceptable.
 
 Production PostgreSQL should use automated backups, restricted network access, and monitored storage growth.

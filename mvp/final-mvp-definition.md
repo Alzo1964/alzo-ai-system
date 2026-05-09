@@ -15,6 +15,9 @@ The MVP includes:
 - PostgreSQL as the primary structured data store.
 - OpenAI API as the MVP AI layer.
 - Docker and Docker Compose for consistent local development.
+- A backend foundation for APIs, task state, memory references, and authentication-aware access.
+- WordPress as the public presentation and lightweight dashboard layer.
+- PostgreSQL as the primary structured data store.
 - Documentation-backed workflows for publishing and campaign support.
 
 ## MVP Success Criteria

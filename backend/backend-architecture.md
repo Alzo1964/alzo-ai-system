@@ -28,6 +28,7 @@ FastAPI is the backend framework for API routing, request validation, service or
 ## AI Layer
 
 The OpenAI API should provide model access for Vera, Mira, and future assistants. Model calls should remain behind runtime or service interfaces so prompts, policies, and providers can evolve without changing API clients.
+The backend should operate as a modular application with separate runtime modules for orchestration, reminders, task execution, memory access, and external integrations. Shared services should provide logging, authentication, configuration, persistence, and API clients.
 
 ## Data Foundation
 

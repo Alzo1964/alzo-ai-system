@@ -3,6 +3,7 @@
 ## Purpose
 
 The API layer should be implemented with FastAPI in Python. It exposes controlled access to ALZO backend capabilities for WordPress, dashboards, automation tools, and future applications.
+The API layer exposes controlled access to ALZO backend capabilities for WordPress, dashboards, automation tools, and future applications.
 
 ## Architecture
 
@@ -25,6 +26,11 @@ APIs should be organized by domain rather than implementation detail:
 4. Domain router calls the appropriate service layer module.
 5. Service layer reads or writes PostgreSQL and optional memory services.
 6. API returns a structured response with status, data, and traceable errors.
+1. Client authenticates with scoped credentials or a user session.
+2. API validates authorization, payload shape, and rate limits.
+3. Domain controller calls the appropriate service layer module.
+4. Service layer reads or writes PostgreSQL and optional memory services.
+5. API returns a structured response with status, data, and traceable errors.
 
 ## Security
 

@@ -9,6 +9,7 @@ Environment separation protects production stability while allowing safe develop
 | Environment | Purpose |
 | --- | --- |
 | Local | Docker Compose environment for FastAPI, PostgreSQL, WordPress-adjacent integration testing, documentation review, and isolated experiments. |
+| Local | Developer testing, documentation review, prototype workflows, and isolated experiments. |
 | Staging | Production-like validation for integrations, migrations, releases, and user acceptance. |
 | Production | Live system for public presentation, backend services, database records, and operational workflows. |
 
